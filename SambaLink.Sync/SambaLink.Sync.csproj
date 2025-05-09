@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SambaLink.Common\SambaLink.Common.csproj" />
+    <ProjectReference Include="..\SambaLink.Core\SambaLink.Core.csproj" />
+    <ProjectReference Include="..\SambaLink.Shared\SambaLink.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

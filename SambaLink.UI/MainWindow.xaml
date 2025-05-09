@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Button 
+            Name="StartServiceButton"
+            Content="StartService" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Center" 
+            Width="120"
+            Height="40"
+            Margin="130,0,0,0"
+            Click="StartServiceButton_Click"
+            />
+        <Button 
+            Name="StopServiceButton"
+            Content="StopService" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Center" 
+            Width="120"
+            Height="40"
+            Margin="0,0,130,0"
+            Click="StopServiceButton_Click"
+            />
     </Grid>
 </Window>

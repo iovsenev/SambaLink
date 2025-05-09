@@ -18,9 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SambaLink.Core\SambaLink.Core.csproj" />
-    <ProjectReference Include="..\SambaLink.Infrastructure\SambaLink.Infrastructure.csproj" />
-    <ProjectReference Include="..\SambaLink.Common\SambaLink.Common.csproj" />
     <ProjectReference Include="..\SambaLink.Sync\SambaLink.Sync.csproj" />
   </ItemGroup>
 </Project>

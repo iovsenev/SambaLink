@@ -1,6 +1,6 @@
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using SambaLink.Core.Interfaces;
 using SambaLink.Service;
+using SambaLink.Sync;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -17,6 +17,7 @@ try
         .ConfigureServices(services =>
         {
             services.AddHostedService<Worker>();
+            services.AddTransient<ISyncService, SyncService>();
         })
         .Build();
 
